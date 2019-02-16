@@ -377,9 +377,16 @@ Remove or comment-out the code block below to see how the browser will fall-back
   .list,
   .list-items li,
   .boards-btn,
-  .board-info-bar,
   .board-controls .btn,
   .user-settings-btn {
       margin: 0;
   }
+
+  .board-info-bar {
+    margin-bottom:20px;
+  }
+}
+
+.box {
+  background-color:white;
 }

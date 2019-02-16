@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 
 export default class Header extends React.Component {
@@ -10,7 +10,7 @@ export default class Header extends React.Component {
         return (
             <header className="masthead">
                 <div className="boards-menu">
-                    <button className="boards-btn btn"><i className="fab fa-trello boards-btn-icon"/>Boards</button>
+                    <button className="boards-btn btn"><i className="fab fa-trello boards-btn-icon"/>Projects</button>
                     <div className="board-search">
                         <input type="search" className="board-search-input" aria-label="Board Search"/>
                         <i className="fas fa-search search-icon" aria-hidden="true"/>
@@ -35,11 +35,9 @@ export default class Header extends React.Component {
                     </button>
 
                     <button className="user-settings-btn btn" aria-label="User Settings">
-                        <i className="fas fa-user-circle" aria-hidden="true"></i>
+                        <i className="fas fa-user-circle" aria-hidden="true"/>
                     </button>
-
                 </div>
-
             </header>
         );
     }
